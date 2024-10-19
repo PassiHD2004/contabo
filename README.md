@@ -1,4 +1,5 @@
 # Catppuccin for my.contabo.com
 
 
-<sub>that's it, enjoy</sub>
+
+<sub>It is not finished yet, but PR's are welcome</sub>
