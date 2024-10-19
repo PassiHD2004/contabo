@@ -1,0 +1,139 @@
+/* ==UserStyle==
+@name           contabo.com - Mar 2024
+@namespace      gist.github.com/PassiHD2004/
+@version        1.0.0
+@description    Contabo userstyle
+@author         Blexyel (PassiHD2004)
+==/UserStyle== */
+@-moz-document domain("my.contabo.com") {
+    body {
+        background-color: #1e1e2e;
+        color: #cdd6f4;
+    }
+    a {
+        color: #cdd6f4;
+    }
+    th,
+    td {
+        background-color: #1e1e2e;
+    }
+    a.button_yellow.upgrade_vps {
+        color: #1e1e2e;
+        background: linear-gradient(180deg, #f9e2af, #fab387);
+        border: 1px solid #9399b2 !important;
+    }
+    a.button {
+        color: #1e1e2e;
+        background: linear-gradient(180deg, #74c7ec, #89dceb);
+        border: 1px solid #9399b2 !important;
+    }
+    #submenu a {
+        color: #1e1e2e;
+    }
+    .navigation li {
+        background: url("/res/arrow_gray.png") no-repeat top left;
+    }
+    .navigation li a {
+        color: #1e1e2e;
+    }
+    .menu > li > ul {
+        background-color: #313244 !important;
+    }
+    .menu > li > ul > li > span:hover {
+        transition: color 0.5s ease;
+        background-color: #74c7ec !important;
+        color: #1e1e2e;
+    }
+    .menu > li > ul > li > a:hover {
+        transition: color 0.5s ease;
+        background-color: #74c7ec !important;
+        color: #1e1e2e;
+    }
+    .menu ul li {
+        border: 1px solid #1e1e2e !important;
+        background: #313244 !important;
+    }
+    #content {
+        box-shadow: 0 0 3px #6c7086 !important;
+    }
+    [style*="height: 20px; background-image:url(/res/s_menu_rahmen_o.png);"] {
+        background-image: unset !important;
+    }
+    [style*="padding: 5px 0px 10px 18px; background-image:url(/res/s_menu_rahmen_m.png);"] {
+        background-image: unset !important;
+        background: linear-gradient(180deg, #b4befe, #89b4fa) !important;
+        border-radius: 12px;
+        border: 0px solid #1e1e2e !important;
+        color: #1e1e2e;
+    }
+    [style*="height: 28px; background-image:url(/res/s_menu_rahmen_u.png);"] {
+        background-image: unset !important;
+    }
+    [style*="height: 28px; background-image:url(/res/order_menu_rahmen_o.png);"] {
+        background-image: unset !important;
+        background: #f9e2af !important;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border: 0px solid #1e1e2e !important;
+    }
+    [style*="padding: 5px 0px 10px 18px; background-image:url(/res/order_menu_rahmen_m.png);"] {
+        background-image: unset !important;
+        background: linear-gradient(180deg, #f9e2af, #fab387) !important;
+        border: 0px solid #1e1e2e !important;
+    }
+    [style*="height: 28px; background-image:url(/res/order_menu_rahmen_u.png);"] {
+        background-image: unset !important;
+        color: #1e1e2e;
+        background: #fab387 !important;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+        border: 0px solid #1e1e2e !important;
+    }
+    [style*="font-size: 1.4em; font-weight: bold;color:#19232d;margin-bottom: 10px;"] {
+        color: #1e1e2e !important;
+    }
+    input, select, textarea {
+        background-color: #313244;
+        color: #cdd6f4;
+        border: 1px solid #45475a
+    }
+    h2 {
+        background-color: #1e1e2e;
+        color: #cdd6f4;
+    }
+    .seperator {
+        background-color: #313244;
+    }
+    .mdc-card .card-title {
+        background-color: #1e1e2e !important;
+    }
+    [style*="width:678px; background-color:#f5f5fa; padding: 10px 40px 10px 40px; text-align:center;"] {
+        background-color: #313244 !important;
+    }
+    [style*="width:678px; background-color:#eae9e9; padding: 10px 40px 10px 40px; text-align:center; margin:30px 0px 0px 0px"] {
+        background-color: #45475a !important;
+    }
+    [style*="width:678px; background-color:#eae9e9; padding: 10px 40px 10px 40px; text-align:center;"] {
+        background-color: #313244 !important;
+    }
+    [style*="font-size: 26px;color:#000000;margin-bottom: 10px;"] {
+        color: #cdd6f4 !important;
+    }
+    .ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix {
+        background-color: #1e1e2e !important;
+        color: #cdd6f4 !important;
+    }
+    .ui-widget-content {
+        color: #cdd6f4;
+        background: #1e1e2e !important
+    }
+    #otp_login_button {
+        background: #313244 !important;
+        border-color: #11111b !important;
+        color: #cdd6f4 !important;
+        box-shadow: none !important;
+    }
+    .newsheader {
+        background: #181825 !important;
+    }
+}
